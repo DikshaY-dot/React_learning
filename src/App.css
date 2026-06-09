@@ -1,0 +1,27 @@
+button {
+  margin-right: 4px;
+  padding: 2px;
+  border-radius: 5px;
+}
+body {
+  background-color: rgb(142, 142, 243);
+  color: rgb(236, 236, 164);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.container {
+  text-align: center;
+}
+button:hover{
+  background-color: rgb(235, 181, 232);
+}
